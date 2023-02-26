@@ -7,8 +7,7 @@ async def do_work(sec):
     return sec
 
 async def main():
-    print('launched'
-    )
+    print('launched')
     print('calling wait for 2 seconds')
     task2 = asyncio.create_task(do_work(2))
     print('exited wait for 2 seconds')

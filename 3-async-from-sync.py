@@ -6,7 +6,7 @@ async def my_fn():
     print('still run')
 
 def main():
-    asyncio.run(my_fn())
+    my_fn() # oops
     print('main is running')
 
 main()
